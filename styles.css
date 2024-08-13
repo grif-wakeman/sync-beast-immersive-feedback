@@ -1,0 +1,116 @@
+@font-face {
+    font-family: NeueMontreal-bold;
+    font-weight: bold;
+    src: url("./assets/NeueMontreal-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: NeueMontreal;
+    src: url("./assets/NeueMontreal.woff") format("woff");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-family: "NeueMontreal-bold";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: #fff;
+    font-family: "NeueMontreal-bold", sans-serif;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+
+}
+
+.img-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#header-img {
+    width: 100%;
+}
+
+.cta-container {
+    width: 100%;
+    text-align: center;
+}
+
+.cta {
+    background-color: #01BBBC;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    font-family: "NeueMontreal-bold";
+    color: #1d1d1d;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.divider {
+    margin: 0 auto;
+    height: 1px;
+    background-color: #373737;
+}
+
+h2, h3 {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: "NeueMontreal", sans-serif;
+}
+
+.content-block {
+    margin: 50px auto;
+}
+
+.disclaimer {
+    font-size: 12px;
+    opacity: .3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.sb-logo {
+    opacity: .3;
+    width: 12%;
+    align-self: center;
+}
+
+.privacy-policy {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+.no-break {
+    margin: 0;
+}
