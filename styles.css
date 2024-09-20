@@ -6,6 +6,7 @@
 
 @font-face {
     font-family: NeueMontreal;
+    font-weight: regular;
     src: url("./assets/NeueMontreal.woff") format("woff");
 }
 
@@ -34,6 +35,15 @@ body {
     margin: auto;
     text-align: left;
 
+}
+
+p {
+    font-family: "NeueMontreal", sans-serif;
+}
+
+.video-player {
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.238);
+    border-radius: 5px;
 }
 
 .img-container {
@@ -141,11 +151,12 @@ a:visited {
     text-align: left;
     outline: none;
     font-size: 18px;
-    font-family: "NeueMontreal", sans-serif;
+    font-family: "NeueMontreal-bold", sans-serif;
 }
 
 .active {
     border: 1px solid #5E5E5E;
+    border-bottom: none;
     
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
